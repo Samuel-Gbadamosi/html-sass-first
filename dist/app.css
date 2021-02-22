@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  height: 100vh;
+  max-width: 1140px;
+  background-color: red;
+  margin: auto;
+}
+.container p {
+  text-align: center;
+  padding-top: 25px;
+}
+
+p {
+  color: red;
+}
+
+.header {
+  height: 90px;
+  background-color: yellow;
+}
+
+.main {
+  display: flex;
+}
+.main p {
+  display: flex;
+  justify-content: center;
+  padding-top: 209px;
+}
+
+.left {
+  height: 500px;
+  width: 274px;
+  background-color: green;
+}
+
+.middle {
+  height: 500px;
+  width: 609px;
+  background-color: purple;
+}
+
+.right {
+  height: 500px;
+  width: 288px;
+  background-color: green;
+}
+
+.footer {
+  height: 90px;
+  background-color: yellow;
+}
